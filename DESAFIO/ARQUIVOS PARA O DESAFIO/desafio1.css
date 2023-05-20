@@ -1,0 +1,42 @@
+body {
+    background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+
+.iphone {
+    padding-top: 200px;
+    padding-left: 600px;
+    margin: auto;
+    width: 100vh;
+    height: 80vh;
+}
+
+.celular {
+    position: absolute;
+    
+}
+
+.funcionalidade {
+    position: absolute;
+    
+}
+
+.funcionalidade > iframe {
+    width: 270px;
+    height: 500px;
+    margin-left: 20px;
+    margin-top: 60px;
+    border-radius: 10px 0px;
+
+}
+
+.iphone > img {
+    margin-left: 500px;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
