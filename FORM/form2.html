@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+    <h1>EXEMPLOS DE FORMULÁRIOS</h1>
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" value="H" id="ihomem">
+            <label for="ihomem">Homem</label><br>
+            <input type="radio" name="sexo" value="F" id="imulher">
+            <label for="imulher">Mulher</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes</legend>
+            <input type="checkbox" name="kick" id="ikick">
+            <label for="ikick">KickBoxing</label><br>
+            <input type="checkbox" name="take" id="itaek">
+            <label for="itaek">Taekwondo</label><br>
+            <input type="checkbox" name="jui" id="ijui">
+            <label for="ijui">Jui-Jitsu</label><br>
+            <input type="checkbox" name="muai" id="imuai">
+            <label for="imuai">Muay Thai</label><br>
+            <input type="checkbox" name="box" id="ibox">
+            <label for="ibox">Box</label>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>

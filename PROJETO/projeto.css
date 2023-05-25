@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    background-color: red;
+    padding: 40px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin: auto;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}
+
+section {
+    width: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: rgb(0, 158, 34);
+}
+
+
+footer {
+    padding: 40px;
+    position: absolute;
+    width: 100vw;
+    background-color: red;
+}
