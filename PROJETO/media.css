@@ -1,0 +1,23 @@
+@media screen and (min-width: 768px) {
+    #burguerbox {
+        display: none;
+    }
+
+    #items {
+        display: block;
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    main {
+        width: 700px;
+       
+    }
+}
